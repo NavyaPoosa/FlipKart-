@@ -1,24 +1,27 @@
-# Project Name - _Project Author (Change Me)_
+# Project Name - _Project Author 
+FlipKart Automation - Navya Poosa
 
 ## Project Name and Description:
-A concise yet descriptive title and an overview of the project’s purpose.
+Automate the flipkart website and return the count of items with different Star ratings, Prices and number of Reviews
 
 ## Installation Instructions:
-Clear steps to set up and run the project locally.
-> Example:
-```
-# java version 17
-java --version
-```
+Set up a local environment -> Install IDE, Java, Gradle, Git, TestNG (if required) to run the project.
 
 ## Usage and Examples:
-Provide sample code or usage scenarios to showcase how the project works.
-> Example:
-```
-# to run the project
-./gradlew run
-```
-
-## Important Links:
-Details about useful external links
+Navigate to FlipKart URL "www.flipkart.com"
+Scenario
+1. Setup-Integrate TestNG framework by
+       Modifying Build.Gradle file
+       Introducing testng.xml file
+2. Go to www.flipkart.com.
+      Search “Washing Machine” 
+      Sort by popularity 
+      print the count of items with rating less than or equal to 4 stars.
+3. Search “iPhone”
+       print the Titles and discount % of items with more than 17% discount
+4. Search “Coffee Mug”
+   select 4 stars and above
+   print the Title and image URL of the 5 items with highest number of reviews
  
+## Important Links:
+https://docs.google.com/document/d/1Brp7IgMDiRdoGtZOvbqi76PYwWH5kCn0VDTuFEDNYns/edit?usp=sharing
